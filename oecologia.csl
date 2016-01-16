@@ -137,8 +137,8 @@
                   <text macro="title" prefix=" "/>
                   <text macro="editor-translator" prefix=" "/>
                </group>
-               <group prefix=" " suffix=".">
-                  <text variable="container-title" form="short"/>
+               <group prefix=" " suffix="">
+                  <text variable="container-title" form="short" strip-periods="true"/>
                   <group prefix=" ">
                      <text variable="volume"/>
                   </group>
